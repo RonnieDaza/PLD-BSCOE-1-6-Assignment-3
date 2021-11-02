@@ -23,6 +23,6 @@ name = getName()
 # 2. Ask for age then save to variable.
 age = getAge()
 # 3. Ask for address then save to variable.
-address = getAddress
+address = getAddress()
 # 4. Display the details.
 display(name, age, address)
