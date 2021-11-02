@@ -28,7 +28,7 @@ def orangeWhatistotal():
     return _orangeTotal
 
 def grandTotal():
-    _total = appleTotal + orangeTotal
+    _total = appleWhatistotal + orangeWhatistotal
     return _total
 
 def display(totalF):
