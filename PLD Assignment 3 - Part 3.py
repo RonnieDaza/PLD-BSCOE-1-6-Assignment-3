@@ -32,4 +32,4 @@ appleQuantity = getApplequantity()
 # 4. Define the price of the apple.
 applePrice = getAppleprice()
 # 5. Define the remaining money that the user will have.
-moneyLeft = getMoneyleft
+moneyLeft = getMoneyleft()
