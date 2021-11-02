@@ -15,6 +15,10 @@ def getApplequantity():
     _appleQuantity = money // apple
     return _appleQuantity
 
+def getAppleprice():
+    _applePrice = appleQuantity * apple
+    return _applePrice
+
 # Steps
 # 1. Ask for the amount of money the user have.
 money = getMoney()
@@ -22,3 +26,5 @@ money = getMoney()
 apple = getApple()
 # 3. Define the quantity of the apple.
 appleQuantity = getApplequantity()
+# 4. Define the price of the apple.
+applePrice = getAppleprice()
