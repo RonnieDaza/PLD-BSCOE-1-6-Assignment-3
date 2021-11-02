@@ -32,7 +32,7 @@ def grandTotal():
     return _total
 
 def display(totalF):
-    print(f"The total amount is {total}.")
+    print(f"The total amount is {totalF}.")
 
 # Steps
 # 1. Ask how many apples you want to buy then save to variable.
