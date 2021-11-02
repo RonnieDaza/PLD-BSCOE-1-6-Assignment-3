@@ -20,34 +20,34 @@ def getOrangeprice():
     return _orangePrice
 
 def getAppletotal():
-    _appleTotal = getApple * getAppleprice
+    _appleTotal = appleQuestion * applePrice
     return _appleTotal
 
 def getOrangetotal():
-    _orangeTotal = getOrange * getOrangeprice
+    _orangeTotal = orangeQuestion * orangePrice
     return _orangeTotal
 
 def getTotal():
-    _total = getOrangetotal + getAppletotal
+    _total = appleTotal + orangeTotal
     return _total
 
 def display(totalF):
     print(f"The total amount is {totalF}.")
 
 # Steps
-# 1. Ask how many apples you want to buy then save to variable.
-appleQuestion = getApple
-# 2. Ask how many oranges you want to buy then save to variable.
-orangeQuestion = getOrange
+# 1. Ask how many apples you want to buy.
+appleQuestion = getApple()
+# 2. Ask how many oranges you want to buy.
+orangeQuestion = getOrange()
 # 3. Define the price of apple.
-applePrice = getAppleprice
+applePrice = getAppleprice()
 # 4. Define the price of orange.
-orangePrice = getOrangeprice
+orangePrice = getOrangeprice()
 # 5. Compute the total price of apple.
-appleTotal = getAppletotal
+appleTotal = getAppletotal()
 # 6. Compute the total price of orange.
-orangeTotal = getOrangetotal
+orangeTotal = getOrangetotal()
 # 7. Compute the grand total price of apple and orange.
-total = getTotal
+total = getTotal()
 # 8. Display the output.
 display(total)
