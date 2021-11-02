@@ -11,8 +11,14 @@ def howmanyOranges():
     _orangeQuestion = int(input("How many oranges you want to buy? "))
     return _orangeQuestion
 
+def appleWhatisprice():
+    _applePrice = 20
+    return _applePrice
+
 # Steps
 # 1. Ask how many apples you want to buy then save to variable.
 appleQuestion = howmanyApples
 # 2. Ask how many oranges you want to buy then save to variable.
 orangeQuestion = howmanyOranges
+# 3. Define the price of apple.
+applePrice = appleWhatisprice
