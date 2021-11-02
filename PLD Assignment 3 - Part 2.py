@@ -31,6 +31,9 @@ def grandTotal():
     _total = appleTotal + orangeTotal
     return _total
 
+def display(totalF):
+    print(f"The total amount is {total}.")
+
 # Steps
 # 1. Ask how many apples you want to buy then save to variable.
 appleQuestion = howmanyApples
@@ -46,3 +49,5 @@ appleTotal = appleWhatistotal
 orangeTotal = orangeWhatistotal
 # 7. Compute the grand total price of apple and orange.
 total = grandTotal
+# 8. Display the output.
+display(total)
