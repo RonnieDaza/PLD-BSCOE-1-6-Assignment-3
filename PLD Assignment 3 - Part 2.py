@@ -25,6 +25,7 @@ def appleWhatistotal():
 
 def orangeWhatistotal():
     _orangeTotal = orangeQuestion * orangeTotal
+    return _orangeTotal
 
 def grandTotal():
     _total = appleTotal + orangeTotal
@@ -44,4 +45,3 @@ appleTotal = appleWhatistotal
 orangeTotal = orangeWhatistotal
 # 7. Compute the grand total price of apple and orange.
 total = grandTotal
-
