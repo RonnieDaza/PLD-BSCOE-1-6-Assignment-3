@@ -14,6 +14,9 @@ def getAddress():
     _add = input("Enter your address: ")
     return _add
 
+def display(nameF, ageF, addF):
+    print(f"Hi, my name is {nameF}. I am {ageF} years old and I live in {addF}.")
+
 # Steps
 # 1. Ask for name then save to variable.
 name = getName()
@@ -21,3 +24,5 @@ name = getName()
 age = getAge()
 # 3. Ask for address then save to variable.
 address = getAddress
+# 4. Display the details.
+display(name, age, address)
