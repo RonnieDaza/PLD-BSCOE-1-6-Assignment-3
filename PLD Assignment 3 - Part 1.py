@@ -10,8 +10,14 @@ def getAge():
     _age = int(input("Enter your age: ")
     return _age
 
+def getAddress():
+    _add = input("Enter your address: ")
+    return _add
+
 # Steps
 # 1. Ask for name then save to variable.
 name = getName()
 # 2. Ask for age then save to variable.
 age = getAge()
+# 3. Ask for address then save to variable.
+address = getAddress
