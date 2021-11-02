@@ -11,8 +11,14 @@ def getApple():
     _apple = int(input("Enter the price of an apple: "))
     return _apple
 
+def getApplequantity():
+    _appleQuantity = money // apple
+    return _appleQuantity
+
 # Steps
 # 1. Ask for the amount of money the user have.
 money = getMoney()
 # 2. Ask for the price of an apple.
 apple = getApple()
+# 3. Define the quantity of the apple.
+appleQuantity = getApplequantity()
