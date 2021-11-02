@@ -23,6 +23,9 @@ def appleWhatistotal():
     _appleTotal = appleQuestion * applePrice
     return _appleTotal
 
+def orangeWhatistotal():
+    _orangeTotal = orangeQuestion * orangeTotal
+
 # Steps
 # 1. Ask how many apples you want to buy then save to variable.
 appleQuestion = howmanyApples
@@ -34,4 +37,5 @@ applePrice = appleWhatisprice
 orangePrice = orangeWhatisprice
 # 5. Compute the total price of apple.
 appleTotal = appleWhatistotal
-
+# 6. Compute the total price of orange.
+orangeTotal = orangeWhatistotal
