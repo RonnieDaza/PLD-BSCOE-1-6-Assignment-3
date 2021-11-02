@@ -3,32 +3,32 @@
 # Display the output in the following format.
 # The total amount is __________.
 
-def howmanyApples():
+def getApple():
     _appleQuestion = int(input("How many apples you want to buy? "))
     return _appleQuestion
 
-def howmanyOranges():
+def getOrange():
     _orangeQuestion = int(input("How many oranges you want to buy? "))
     return _orangeQuestion
 
-def appleWhatisprice():
+def getAppleprice():
     _applePrice = 20
     return _applePrice
 
-def orangeWhatisprice():
+def getOrangeprice():
     _orangePrice = 25
     return _orangePrice
 
-def appleWhatistotal():
-    _appleTotal = appleQuestion * applePrice
+def getAppletotal():
+    _appleTotal = getApple * getAppleprice
     return _appleTotal
 
-def orangeWhatistotal():
-    _orangeTotal = orangeQuestion * orangeTotal
+def getOrangetotal():
+    _orangeTotal = getOrange * getOrangeprice
     return _orangeTotal
 
-def grandTotal():
-    _total = appleWhatistotal + orangeWhatistotal
+def getTotal():
+    _total = getOrangetotal + getAppletotal
     return _total
 
 def display(totalF):
@@ -36,18 +36,18 @@ def display(totalF):
 
 # Steps
 # 1. Ask how many apples you want to buy then save to variable.
-appleQuestion = howmanyApples
+appleQuestion = getApple
 # 2. Ask how many oranges you want to buy then save to variable.
-orangeQuestion = howmanyOranges
+orangeQuestion = getOrange
 # 3. Define the price of apple.
-applePrice = appleWhatisprice
+applePrice = getAppleprice
 # 4. Define the price of orange.
-orangePrice = orangeWhatisprice
+orangePrice = getOrangeprice
 # 5. Compute the total price of apple.
-appleTotal = appleWhatistotal
+appleTotal = getAppletotal
 # 6. Compute the total price of orange.
-orangeTotal = orangeWhatistotal
+orangeTotal = getOrangetotal
 # 7. Compute the grand total price of apple and orange.
-total = grandTotal
+total = getTotal
 # 8. Display the output.
 display(total)
