@@ -9,6 +9,7 @@ def getMoney():
 
 def getApple():
     _apple = int(input("Enter the price of an apple: "))
+    return _apple
 
 # Steps
 # 1. Ask for the amount of money the user have.
