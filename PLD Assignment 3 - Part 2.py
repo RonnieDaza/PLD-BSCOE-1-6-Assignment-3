@@ -29,6 +29,7 @@ def orangeWhatistotal():
 
 def grandTotal():
     _total = appleTotal + orangeTotal
+    return _total
 
 # Steps
 # 1. Ask how many apples you want to buy then save to variable.
