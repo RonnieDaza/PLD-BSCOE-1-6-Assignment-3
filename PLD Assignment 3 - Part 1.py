@@ -7,7 +7,7 @@ def getName():
     return _name
 
 def getAge():
-    _age = int(input("Enter your age: ")
+    _age = int(input("Enter your age: "))
     return _age
 
 def getAddress():
